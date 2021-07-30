@@ -5,6 +5,3 @@ services:
     image: nginx
     ports:
       - "80:80"
-    restart_policy:
-      condition: on-failure
-      delay: 10s
